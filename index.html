@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="tr">
+    <meta name="author" content="ProgrammerYavuz">
+    <meta name="generator" content="Visual Studio Code">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="./style.css">
+    <link type="image/png" rel="icon" sizes="96x96" href="./favicon.png">
+</head>
+<body>
+    <div class="sayfalama">
+        <button class="btnsol" onclick="btnGeri()"><img src="./arrow.png" alt=""> Geri</button>
+        <ul>
+            <li class="link aktif" value="1" onclick="aktifLink()">1</li>
+            <li class="link" value="2" onclick="aktifLink()">2</li>
+            <li class="link" value="3" onclick="aktifLink()">3</li>
+            <li class="link" value="4" onclick="aktifLink()">4</li>
+            <li class="link" value="5" onclick="aktifLink()">5</li>
+            <li class="link" value="6" onclick="aktifLink()">6</li>
+        </ul>
+        <button class="btnsag" onclick="btnIleri()">İleri <img src="./arrow.png" alt=""></button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
